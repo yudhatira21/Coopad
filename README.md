@@ -1,17 +1,26 @@
 # Coopad
 
+<div align="center">
+  <h1>
+
+  ✍️
+
+  Tugas UAS Pemrograman Web Lanjut
+
+  </h1>
+</div>
+
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-<H1 align="center">Tugas UAS Pemrograman Web Lanjut</H1>
-### Built With
+## Deskripsi
+<p><b>Coopad</b> adalah sebuah aplikasi...</p>
 
-* [PHP]
-* [Javascript](https://reactjs.org/)
+## Built With
+
+* PHP
+* Javascript
+
+## Author
+- [@muhem](https://github.com/muhem)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
