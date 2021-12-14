@@ -1,3 +1,3 @@
 # Coopad
 
-<H1>Tugas UAS Pemrograman Web Lanjut</H1>
+<H1 align="center">Tugas UAS Pemrograman Web Lanjut</H1>
