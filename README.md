@@ -21,6 +21,6 @@
 * Javascript
 
 ## Author
-- [@muhem](https://github.com/muhem)
+- [Muhammad Erwin Syahrul Alim | 19.11.2687](https://github.com/muhem)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
