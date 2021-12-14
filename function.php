@@ -76,41 +76,7 @@ class menu
 
 	}
 
-	function hapus_chapter($id_chapter) {
-		$qchapter = $this->con->query("DELETE FROM chapter WHERE id_chapter = '$id_chapter'");
-	}
 
-
-
-	function tampil_chapter_id($id) {
-		$data = array();
-		$qchapter = $this->con->query("SELECT * FROM chapter JOIN cerita ON chapter.id_cerita = cerita.id_cerita WHERE chapter.id_cerita = '$id'");
-
-		while ($break = $qchapter->fetch_assoc()) {
-			$data[] = $break;
-		}
-
-		return $data;
-	}
-
-	function tampil_chapter_by_id($id) {
-		$qchapter = $this->con->query("SELECT * FROM chapter JOIN cerita ON chapter.id_cerita = cerita.id_cerita WHERE id_chapter = '$id'");
-
-		$break = $qchapter->fetch_assoc();
-
-		return $break;
-	}
-
-	function tampil_status() {
-		$data = array();
-		$qstatus = $this->con->query("SELECT * FROM status");
-
-		while ($break = $qstatus->fetch_assoc()) {
-			$data[] = $break;
-		}
-
-		return $data;
-	}
 
 	function tambah_cerita($judul_cerita,$sinopsis,$sampul_cerita,$id_status,$id_users, $tanggal) {
 		$rand = rand();
@@ -134,10 +100,6 @@ class menu
 		}
 	}
 
-	function tambah_chapter($judul_chapter, $isi_chapter, $id_cerita, $tanggal) {
-		$this->con->query("INSERT INTO chapter(judul_chapter,isi_chapter,id_cerita,tanggal) VALUES ('$judul_chapter','$isi_chapter','$id_cerita','$tanggal')");
-		return "success_tambah";
-	}
 
 	function edit_cerita($judul_cerita, $sinopsis, $sampul_cerita, $id_status, $id_cerita, $id_users) {
 		$nama_foto = $sampul_cerita['name'];
