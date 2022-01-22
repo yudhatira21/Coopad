@@ -25,6 +25,6 @@
 - [Ismail Ardhian Fadhola | 19.11.2724](https://github.com/ismailardhian)
 - [Muhammad Erwin Syahrul Alim | 19.11.2687](https://github.com/muhem)
 - [Fajar Trinanda Yuvianto | 19.11.2680](https://github.com/fajare27)
-- [Afnan Rifqi Firmansyah | 19.11.2673](https://github.com/anfan898)
+- [Afnan Rifqi Firmansyah | 19.11.2673](https://github.com/afnan898)  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
